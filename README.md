@@ -55,6 +55,7 @@ localStorage.getItem("wallet")
 
 ![step](./assets/step.png)
 
+❗️❗️❗️ Also do a couple of hand clicks right after buying clicks.
 
 ## Run
 
