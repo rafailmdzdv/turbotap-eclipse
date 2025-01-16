@@ -78,3 +78,7 @@ Windows:
 ```powershell
 python .\src\main.py
 ```
+
+## Attention
+
+Don't use this bot 24/7 because of anti-sybil. Let him rest :).
