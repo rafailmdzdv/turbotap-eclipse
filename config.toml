@@ -1,0 +1,12 @@
+[user]
+clicks_per_loop = 1000
+# in seconds
+delay_between_loop = 900
+
+# delay between clicks in seconds
+clicks_delay_from = 0.5
+clicks_delay_to = 1
+
+[app]
+rpc = "https://eclipse.lgns.net"
+user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"

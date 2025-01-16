@@ -1,6 +1,7 @@
 ## TurboTap Eclipse
 
 ##### RPC clicker.
+Made by https://t.me/glistdao
 
 ##### Features:
 - Clicking
@@ -26,13 +27,22 @@ pip install -r .\requirements.txt
 
 ## Configuration
 
-Provide delay in `config.toml` with start delay `delay_from` and end delay `delay_to`
+Provide delay between clicks and loop in `config.toml` with
+
+start delay `clicks_delay_from`, end delay `clicks_delay_to` (between clicks);
+
+delay between "loop" `delay_between_loop` and clicks per 1 loop `clicks_per_loop`
 
 ```toml
 # config.toml
 
-delay_from = 5
-delay_to = 20
+clicks_per_loop = 1000
+# in seconds
+delay_between_loop = 900
+
+# delay between clicks in seconds
+clicks_delay_from = 0.5
+clicks_delay_to = 1
 ```
 
 
