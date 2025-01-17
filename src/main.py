@@ -69,12 +69,14 @@ async def process(
                     )
                     break
             await logger.ainfo(
-                "[{0}] Finished loop. Sleeping for {1} secs....".format(
+                "[{0}] Finished loop. Sleeping for {1}-{2} secs....".format(
                     keypair.pubkey(),
-                    config.user().delay_between_loop(),
+                    config.user().delay_between_loop_start(),
+                    config.user().delay_between_loop_end(),
                 ),
             )
-            await asyncio.sleep(config.user().delay_between_loop())
+            await asyncio.sleep(random.randint(
+                config.user().delay_between_loop_start(), config.user().delay_between_loop_end()))
     if not proxies:
         await logger.awarning(
             "[{0}] Not enough proxies".format(keypair.pubkey()),
