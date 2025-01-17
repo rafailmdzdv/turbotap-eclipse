@@ -17,8 +17,11 @@ class UserSection:
     def clicks_per_loop(self) -> int:
         return self._data["clicks_per_loop"]
 
-    def delay_between_loop(self) -> int:
-        return self._data["delay_between_loop"]
+    def delay_between_loop_start(self) -> int:
+        return self._data["delay_between_loop_start"]
+    
+    def delay_between_loop_end(self) -> int:
+        return self._data["delay_between_loop_end"]
 
     def clicks_delay_from(self) -> float:
         return self._data["clicks_delay_from"]
