@@ -76,7 +76,9 @@ async def process(
                 ),
             )
             await asyncio.sleep(random.randint(
-                config.user().delay_between_loop_start(), config.user().delay_between_loop_end()))
+                config.user().delay_between_loop_start(),
+                config.user().delay_between_loop_end()),
+            )
     if not proxies:
         await logger.awarning(
             "[{0}] Not enough proxies".format(keypair.pubkey()),
