@@ -83,3 +83,16 @@ python .\src\main.py
 ## Attention
 
 Don't use this bot 24/7 because of anti-sybil. Let him rest :).
+
+## Support
+
+```
+# Solana
+3q87zLdFVGBh7cSUQavhK5AkdNzXyD2U7xCmB27PSBdX
+
+# TRC20
+TTHJgyn3NC69UXSzEYAvZzBbRRps9vtuZf
+
+# EVM
+0xc0fa4dcd208c7e45e2a324784526eed0fc4ef8cb
+```
