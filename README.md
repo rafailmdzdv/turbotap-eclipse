@@ -37,8 +37,9 @@ delay between "loop" `delay_between_loop` and clicks per 1 loop `clicks_per_loop
 # config.toml
 
 clicks_per_loop = 1000
-# in seconds
-delay_between_loop = 900
+# delay between loops in seconds
+delay_between_loop_start = 800
+delay_between_loop_end = 900
 
 # delay between clicks in seconds
 clicks_delay_from = 0.5
