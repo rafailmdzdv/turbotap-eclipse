@@ -1,12 +1,12 @@
 [user]
-clicks_per_loop = 15
+clicks_per_loop = 1000
 # delay between loops in seconds
-delay_between_loop_start = 10
-delay_between_loop_end = 20
+delay_between_loop_start = 800
+delay_between_loop_end = 900
 
 # delay between clicks in seconds
-clicks_delay_from = 0.3
-clicks_delay_to = 0.7
+clicks_delay_from = 0.5
+clicks_delay_to = 1
 
 [app]
 rpc = "https://eclipse.lgns.net"
