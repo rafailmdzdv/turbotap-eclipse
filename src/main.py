@@ -55,6 +55,7 @@ async def process(
         proxies.remove(proxy)
         while True:
             async with aiohttp.ClientSession(
+                connector=aiohttp.TCPConnector(ssl=False),
                 headers={"user-agent": config.app().user_agent()},
                 proxy=proxy,
             ) as session:
